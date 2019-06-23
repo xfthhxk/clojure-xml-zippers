@@ -1,0 +1,30 @@
+<svResponse category="EVENT" environment="ENV910" pwd="asdfas"
+responseCreator="XAPI" role="ALL" session="7370710" token="asdfasf"
+type="realTimeEvent" user="sv"
+xmlns:rte="http://www.schemas.e1.oracle.com">
+    <event>
+        <header>
+            <eventVersion>1.0</eventVersion>
+            <type>EVENTOUT</type>
+            <user>sv</user>
+            <role>*ALL</role>
+           </header>
+        <body elementCount="3">
+            <detail_D1>
+                <szNextStatus>999</szNextStatus>
+                <mnOrderLineNumber>1.000</mnOrderLineNumber>
+                <mnAmountReceived>100</mnAmountReceived>
+            </detail_D1>
+            <detail_D1>
+                <szNextStatus>999</szNextStatus>
+                <mnOrderLineNumber>2.000</mnOrderLineNumber>
+                <mnAmountReceived>200</mnAmountReceived>
+            </detail_D1>
+            <detail_D1>
+                <szNextStatus>999</szNextStatus>
+                <mnOrderLineNumber>3.000</mnOrderLineNumber>
+                <mnAmountReceived>300</mnAmountReceived>
+            </detail_D1>
+        </body>
+    </event>
+</svResponse>
